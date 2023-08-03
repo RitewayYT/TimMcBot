@@ -7,6 +7,7 @@ import random
 import json
 import pandas as pd
 import extensions
+import scratchattach as scratch3
 from replit import db
 
 app = Flask("")
@@ -183,3 +184,5 @@ ip_adress = requests.get("https://api.my-ip.io/ip").text
 port = "1080"
 
 print(ip_adress+":"+port)
+
+#end
